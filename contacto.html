@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/nosotros.css">
+    <link rel="stylesheet" href="CSS/galeria.css">
+    <link rel="stylesheet" href="CSS/font.css">
+    <link rel="stylesheet" href="CSS/contacto.css">
+    <style>
+        .success-message {
+            display: none;
+            color: beige;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .error-message {
+            color: red;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+    </style>
+    <title>Don Castello - Contacto</title>
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Don Castello Restaurant</h1>
+            </div>
+            <div class="main-header__contactinfo column column--50">
+                <p class="main-header__contactinfo__phone">
+                    <span class="icon-cel"> 3102295569</span>
+                </p>
+                <p class="main-header__contactinfo__address">
+                    <span class="icon-gps">Calle 34 #5E Bis - 12</span>
+                </p>
+            </div>
+        </div>
+    </header>
+    <!-- nav:opciones de menu de navegacion "nav.main-nav>.container" -->
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <!-- Final del codigo -->
+            <!-- Generar el codigo de abajo "ul.menu#menu>li.menu__item*4>a.menu__link" -->
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link ">Galeria</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">Contacto</a></li>
+            </ul>
+            <!-- Final del codigo -->
+            <!-- Generar el codigo de abajo ".social-icon>a.social-icon__link*3>span.icon" -->
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-fb"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-wp"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+            </div>
+            <!-- Final del codigo -->
+        </div>
+    </nav>
+    <!-- Para el codigo de la parte de abajo section.banner>img.banner__banner__img+.banner__content -->
+    <section class="banner">
+        <img src="Img/bannerContacto.jpg" alt="" class="banner__banner__img" width="500" height="500">
+        <div class="banner__content">¡Siempre te escuchamos!</div>
+    </section>
+    <!-- Final del codigo -->
+    <main class="main">
+        <!-- .group.contact>h2.group__title -->
+        <section class="group contact">
+            <h2 class="group__title">Contactenos</h2>
+            <!-- .container.container--flex>.contact-information+.formulario -->
+            <div class="container container--flex">
+                <div class="contact-information column column--50">
+                    <!-- h3.column__title -->
+                    <h3 class="column__title">Informacion de contacto</h3>
+                    <!-- p.column__txt*5 -->
+                    <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    <p class="column__txt"><span class="icon-cel"></span> Telefono celular: 310 333 3333</p>
+                    <p class="column__txt"><span class="icon-fijo"></span> Telefono Fijo: 604 437 1234</p>
+                    <p class="column__txt"><span class="icon-gps"></span> Direccion: Calle 34 # 5E Bis - 12</p>
+                    <p class="column__txt"><span class="icon-mail"></span> Correo Electronico: doncastello@prueba.com</p>
+                    <div class="social-icon">
+                        <a href="" class="social-icon__link"><span class="icon-fb"></span></a>
+                        <a href="" class="social-icon__link"><span class="icon-wp"></span></a>
+                        <a href="" class="social-icon__link"><span class="icon-yt"></span></a>
+                    </div>
+                </div>
+                <form id="myform" action="procesar.php" method="post" class="formulario column column--50">
+                    <!-- label.formulario_label+input.formulario_input-txt -->
+                    <label for="" class="formulario_label">Nombre<input type="text" class="formulario_input-txt" name="nombre" required></label>
+                    <label for="" class="formulario_label">Correo<input type="text" class="formulario_input-txt" name="correo" required></label>
+                    <label for="" class="formulario_label">Telefono<input type="text" class="formulario_input-txt" name="telefono" required></label>
+                    <label for="" class="formulario_label">Mensaje</label><textarea id="" cols="30" rows="10" class="formulario__textarea" name="mensaje" required></textarea><input type="submit" class="btn formulario__btn">
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- El codigo de abajo footer.main-footer>.container--flex -->
+    <footer class="main-footer">
+        <div class="container--flex">
+            <!-- .column.column--33*3 -->
+            <div class="column column--33">
+                <!-- h2.column__title+p.column__txt -->
+                <h2 class="column__title">Calidad regional</h2>
+                <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, repellendus pariatur molestiae iste</p>
+            </div>
+            <div class="column column--33">
+                <!-- h2.column__title+p.column__txt -->
+                <h2 class="column__title">Horarios de atención</h2>
+                <p class="column__txt">Martes a Domingos de 10:00 H - 22:00 H</p>
+            </div>
+            <div class="column column--33">
+                <!-- h2.column__title+p.column__txt -->
+                <h2 class="column__title">Siguenos en redes sociales</h2>
+                <p class="column__txt"><a href="" class="icon-yt">YouTube</a></p>
+                <p class="column__txt"><a href="" class="icon-fb">Facebook</a></p>
+                <p class="column__txt"><a href="" class="icon-wp">Whatsapp</a></p>
+            </div>
+            <p class="copy">&copy;10 de Octubre de 2024 Don Castello Restaurant | Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="JS/menu.js"></script>
+    <script src="JS/modal.js"></script>
+    <div id="message" class="error-message"></div>
+    <script>
+        document.getElementById('myform').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var formData = new FormData(this);
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'procesar.php', true);
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    alert('Datos enviados con exito');
+                    document.getElementById('myform').reset();
+                } else {
+                    alert('Error al enviar los datos');
+                }
+
+            };
+            xhr.send(formData);
+        });
+
+    </script>
+</body>
+
+</html>

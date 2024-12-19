@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/font.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Don Castello Restaurant</h1>
+            </div>
+            <div class="main-header__contactinfo column column--50">
+                <p class="main-header__contactinfo__phone">
+                    <span class="icon-cel"> 3102295569</span>
+                </p>
+                <p class="main-header__contactinfo__address">
+                    <span class="icon-gps">Calle 34 #5E Bis - 12</span>
+                </p>
+            </div>
+        </div>
+    </header>
+    <!-- nav:opciones de menu de navegacion "nav.main-nav>.container" -->
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <!-- Final del codigo -->
+            <!-- Generar el codigo de abajo "ul.menu#menu>li.menu__item*4>a.menu__link" -->
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link menu__link--select">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+            </ul>
+            <!-- Final del codigo -->
+            <!-- Generar el codigo de abajo ".social-icon>a.social-icon__link*3>span.icon" -->
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-fb"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-wp"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+            </div>
+            <!-- Final del codigo -->
+        </div>
+    </nav>
+    <!-- Para el codigo de la parte de abajo section.banner>img.banner__banner__img+.banner__content -->
+    <section class="banner">
+        <img src="Img/Presentacion.jpg" alt="" class="banner__banner__img" width="500" height="500">
+        <div class="banner__content">Para tu paladar, lo mejor de Don Castello</div>
+    </section>
+    <!-- Final del codigo -->
+    <!-- El codigo de abajo main.main>section.group -->
+    <main class="main">
+        <section class="group group--color">
+            <!-- .container -->
+            <div class="container">
+                <!-- h2.main__title -->
+                <h2 class="main__title">Bienvenidos a nuestro Restaurante Don Castello</h2>
+                <!-- p.main_txt -->
+                <p class="main_txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas repudiandae dolorum quisquam sapiente, sed fuga, id consequuntur cum fugit ea quis a maxime ad, enim ut qui neque magnam excepturi.</p>
+            </div>
+        </section>
+        <!-- El codigo de abajo section.main__about__description>.container.container--flex -->
+        <section class="group main__about__description">
+            <div class="container container--flex">
+                <!-- El codigo de abajo .column.column--50*2 -->
+                <div class="column column--50">
+                    <img src="Img/Carnes.jpg" alt="" width="200" height="200">
+                </div>
+                <div class="column column--50">
+                    <!-- El codigo de abajo h3.column__title+p.column__txt -->
+                    <h3 class="column__title">Corte Fino de Carne</h3>
+                    <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perferendis quibusdam placeat saepe corporis ipsam impedit nostrum ducimus. Quae esse, harum molestias quisquam, iure expedita. Numquam, asperiores. Autem, commodi, atque!</p>
+                    <!-- a.btn btn--contact -->
+                    <a href="" class="btn btn--contact">Contacto</a>
+                </div>
+            </div>
+        </section>
+        <!-- El codigo de abajo section.group.today-especial>h2.today-especial__txt -->
+        <section class="group today-especial">
+            <h2 class="group__title">Menu del dia</h2>
+            <!-- El codigo de abajo .container.container__flex>.column.column--50-25*4>img.today-especial__img+.today-especial__title+.today-especial__price -->
+            <div class="container container--flex">
+                <div class="column column--50-25">
+                    <img src="Img/Ensalada.jpg" alt="" class="today-especial__img" width="200" height="200">
+                    <div class="today-especial__title">Especial del dia Lunes</div>
+                    <div class="today-especial__price">$ 24.0000</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="Img/FrutasPicada.jpg" alt="" class="today-especial__img" width="200" height="200">
+                    <div class="today-especial__title">Especial del dia Martes</div>
+                    <div class="today-especial__price">$ 18.000</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="Img/Galletas.jpg" alt="" class="today-especial__img" width="200" height="200">
+                    <div class="today-especial__title">Especial del dia Miercoles</div>
+                    <div class="today-especial__price">$ 8.000</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="Img/Hamburguesa.jpg" alt="" class="today-especial__img" width="200" height="200">
+                    <div class="today-especial__title">Especial del dia Juves</div>
+                    <div class="today-especial__price">$ 26.000</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- El codigo de abajo footer.main-footer>.container--flex -->
+    <footer class="main-footer">
+        <div class="container--flex">
+            <!-- .column.column--33*3 -->
+            <div class="column column--33">
+                <!-- h2.column__title+p.column__txt -->
+                <h2 class="column__title">Calidad regional</h2>
+                <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, repellendus pariatur molestiae iste</p>
+            </div>
+            <div class="column column--33">
+                <!-- h2.column__title+p.column__txt -->
+                <h2 class="column__title">Horarios de atención</h2>
+                <p class="column__txt">Martes a Domingos de 10:00 H - 22:00 H</p>
+            </div>
+            <div class="column column--33">
+                <!-- h2.column__title+p.column__txt -->
+                <h2 class="column__title">Siguenos en redes sociales</h2>
+                <p class="column__txt"><a href="" class="icon-yt">YouTube</a></p>
+                <p class="column__txt"><a href="" class="icon-fb">Facebook</a></p>
+                <p class="column__txt"><a href="" class="icon-wp">Whatsapp</a></p>
+            </div>
+            <p class="copy">&copy;10 de Octubre de 2024 Don Castello Restaurant | Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="JS/menu.js"></script>
+</body>
+
+</html>
